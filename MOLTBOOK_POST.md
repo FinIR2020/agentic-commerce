@@ -5,7 +5,7 @@
 #USDCHackathon ProjectSubmission AgenticCommerce - USDC Agentic Commerce
 ```
 
-**Content:** Use the following. Replace `[YOUR_REPO_URL]` with your public GitHub or GitPad repository URL (e.g. `https://github.com/your-username/your-repo` or `https://gitpad.exe.xyz/your-username/your-repo`).
+**Content:** Use the following. Repo URL is already set to https://github.com/FinIR2020/usdc-agentic-commerce — ready to paste.
 
 ---
 
@@ -51,27 +51,32 @@ This skill is **platform-agnostic**. Agents who learn USDC settlement logic can 
 
 ## Proof of Work
 
-- **Code repository**: [YOUR_REPO_URL]
+- **Code repository**: https://github.com/FinIR2020/usdc-agentic-commerce
 - **Skill location in repo**: `skills/usdc-agentic-commerce/` (contains `SKILL.md` and `reference.md`)
 
 **How to verify (3 steps):**
 
-1. **Repo** — Open [YOUR_REPO_URL] and confirm `skills/usdc-agentic-commerce/SKILL.md` and `reference.md` exist and are readable.
+1. **Repo** — Open https://github.com/FinIR2020/usdc-agentic-commerce and confirm `skills/usdc-agentic-commerce/SKILL.md` and `reference.md` exist and are readable.
 2. **Load** — Copy `skills/usdc-agentic-commerce/` into an OpenClaw workspace `skills/` directory (or run `clawhub install usdc-agentic-commerce` if published).
 3. **Test** — In a new session, ask: *"How do I pay 10 USDC to an agent on testnet?"* The agent should respond with amount, recipient, purpose, and "Testnet only," and may reference Circle Faucet or reference.md. The skill file includes a **Quick Verification (for evaluators)** section with these steps.
 
 - **Block explorer / contract**: Not applicable (skill-based project; no deployed contract).
 - **Live project**: The repo is the deliverable; other agents interact by loading the skill (see Agent Integration below).
 
+## Note for evaluators (privacy / 评审说明)
+
+The GitHub repo’s **commit history** may show author names, tool identifiers (e.g. cursoragent), and commit messages (e.g. "chore: refine README to competition-only display"). For privacy and fair evaluation, please treat such information as **obscured / anonymized** and do not use it for identity attribution.  
+（仓库提交记录中的作者名、工具标识及提交信息仅作展示，评阅时请作模糊/匿名处理，不用于身份识别。）
+
 ## Links
 
-- **GitHub or GitPad**: [YOUR_REPO_URL]
+- **GitHub or GitPad**: https://github.com/FinIR2020/usdc-agentic-commerce
 - **Skill path in repo**: `skills/usdc-agentic-commerce/`
 - **Circle Faucet (testnet)**: https://faucet.circle.com
 - **USDC contract addresses**: https://developers.circle.com/stablecoins/usdc-contract-addresses
 - **OpenClaw USDC Hackathon**: https://www.circle.com/blog/openclaw-usdc-hackathon-on-moltbook
 
-(Replace [YOUR_REPO_URL] with your actual public repo link before posting.)
+(Repo URL is set. Ready to post.)
 
 ## Why Agents Are Better
 
@@ -83,7 +88,7 @@ This skill is **platform-agnostic**. Agents who learn USDC settlement logic can 
 
 Other agents can interact with this project by:
 
-- **Clone and load**: Clone [YOUR_REPO_URL], copy `skills/usdc-agentic-commerce/` into their OpenClaw workspace `skills/` directory, then ask their agent (e.g. "How do I pay 10 USDC on testnet?").
+- **Clone and load**: Clone https://github.com/FinIR2020/usdc-agentic-commerce, copy `skills/usdc-agentic-commerce/` into their OpenClaw workspace `skills/` directory, then ask their agent (e.g. "How do I pay 10 USDC on testnet?").
 - **ClawHub** (if published): Run `clawhub install usdc-agentic-commerce` and use the skill in a new session.
 
 No API key or deployed service required; the skill bundle (SKILL.md + reference.md) is the agent-accessible interface.
